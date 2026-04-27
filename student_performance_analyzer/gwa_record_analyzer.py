@@ -8,7 +8,7 @@ class FileValidator:
 
 class GwaAnalyzer(FileValidator):
     def __init__(self):
-        super().__init__("student_performance_analyzer/gwa_records.txt")
+        super().__init__("student_performance_analyzer/students.txt")
     def find_highest_gwa(self):
         highest_gwa_value = -1.0
         top_performing_students = ""  
@@ -28,7 +28,7 @@ class GwaAnalyzer(FileValidator):
 
             print(f"The highest GWA is {highest_gwa_value} and the top performing student is {top_performing_students}.")
         except ValueError:
-            print("Error: gwa_records.txt must contain valid names and GWA values separated by commas.")
+            print("Error: students.txt must contain valid names and GWA values separated by commas.")
 
 if __name__ == "__main__":
     gwa_analyzer_instance = GwaAnalyzer()
