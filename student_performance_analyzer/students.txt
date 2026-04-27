@@ -1,20 +1,20 @@
-L Lawliet, 1.00
-Ami Mizuno, 1.05
-Julianna Marie, 1.15
-Norman, 1.20
-Sebastian Michaelis, 1.25
-Marcus Aurelius, 1.45
-Edward Elric, 1.65
-Winry Rockbell, 1.75
-Tanjiro Kamado, 1.85
-Mateo, 1.90
-Shikamaru Nara, 2.00
-Clara, 2.10
-Izuku Midoriya, 2.25
-Naruto Uzumaki, 2.50
-Denji, 2.65
-Roronoa Zoro, 2.75
-Sasha Braus, 2.80
 Goku, 2.85
-Power, 2.95
+Winry Rockbell, 1.75
+Denji, 2.65
+Ami Mizuno, 1.05
+Shikamaru Nara, 2.00
+Sasha Braus, 2.80
+Sebastian Michaelis, 1.25
+Naruto Uzumaki, 2.50
+Julianna Marie, 1.15
 Monkey D. Luffy, 3.00
+L Lawliet, 1.00
+Edward Elric, 1.65
+Power, 2.95
+Norman, 1.20
+Mateo, 1.90
+Roronoa Zoro, 2.75
+Izuku Midoriya, 2.25
+Marcus Aurelius, 1.45
+Clara, 2.10
+Tanjiro Kamado, 1.85

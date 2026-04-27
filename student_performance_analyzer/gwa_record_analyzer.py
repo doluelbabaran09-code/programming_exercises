@@ -10,7 +10,7 @@ class GwaAnalyzer(FileValidator):
     def __init__(self):
         super().__init__("student_performance_analyzer/students.txt")
     def find_highest_gwa(self):
-        highest_gwa_value = -1.0
+        highest_gwa_value = 5.00
         top_performing_students = ""  
         try:
             if not self.is_file_ready():
@@ -22,7 +22,7 @@ class GwaAnalyzer(FileValidator):
                     if len(name_and_gwa) == 2:
                         current_student_name = name_and_gwa[0].strip()
                         current_student_gwa = float(name_and_gwa[1].strip())
-                    if current_student_gwa > highest_gwa_value:
+                    if current_student_gwa < highest_gwa_value:
                         highest_gwa_value = current_student_gwa
                         top_performing_students = current_student_name
 
