@@ -7,4 +7,7 @@ class FileValidator:
     def is_file_ready(self):
         """Behavior: Checks if the source file exists."""
         return os.path.exists(self.target_file_name)
-    
+
+class NumberProcessor(FileValidator):
+    def __init__(self):
+        super().__init__("numbers.txt")
