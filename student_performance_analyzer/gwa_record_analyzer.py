@@ -6,3 +6,8 @@ class FileValidator:
 
     def is_file_ready(self):
         return os.path.exists(self.target_file_name)
+
+class GwaAnalyzer(FileValidator):
+    def __init__(self):
+        super().__init__("student_performance_analyzer/gwa_records.txt")
+        
